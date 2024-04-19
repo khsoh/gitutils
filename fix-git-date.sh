@@ -1,12 +1,12 @@
 #!/bin/bash
 # Change author date and commit date of specific commit
-#   fix_git_date <git commit hash> <new date>
+#   fix-git-date <git commit hash> <new date>
 # where <new date> is in RFC2822 format
 
 
 if [[ $# -lt 2 ]]; then
     echo 'Usage:'
-    echo '  ./fix_git_date.sh <git commit hash> <new date>'
+    echo '  ./fix-git-date.sh <git commit hash> <new date>'
     echo 'where <new date> is in RFC2822 format'
     exit 1
 fi
